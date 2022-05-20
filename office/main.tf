@@ -33,3 +33,6 @@ module "office_vm" {
   subnet-id       = module.subnet_network.subnet_id
   //sg_id = var.
 }
+  
+  resource "null_resource" "ex"{
+  }
